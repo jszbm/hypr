@@ -1,4 +1,4 @@
-# My personal [hyprland](https://github.com/hyprwm/Hyprland) configuration files
+# My [hyprland](https://github.com/hyprwm/Hyprland) configuration files
 
 ### Required packages:
 - kitty, dolphin, rofi, hyprpicker, hyprpolkitagent
