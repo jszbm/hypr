@@ -14,3 +14,5 @@ sudo pacman -S kitty dolphin rofi hyprpicker hyprpolkitagent
 cd ./.config/
 git clone git@github.com:jszbm/hypr.git
 ```
+
+Rename one hyprland-platform.conf to hyprland.conf according to your system.
