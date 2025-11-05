@@ -1,18 +1,28 @@
 # My [hyprland](https://github.com/hyprwm/Hyprland) configuration files
 
-### Required packages:
-- kitty, dolphin, rofi, hyprpicker, hyprpolkitagent
+### Dependencies:
+```
+sudo pacman -S kitty dolphin rofi hyprpicker hyprpolkitagent
+```
 
-### Input method:
+# Input method:
 ```
 sudo pacman -S fcitx5 fcitx5-mozc fcitx5-gtk fcitx5-qt fcitx5-configtool
 ```
 
 ### Installation:
 ```
-sudo pacman -S kitty dolphin rofi hyprpicker hyprpolkitagent
 cd ./.config/
 git clone git@github.com:jszbm/hypr.git
+cd ./hypr/
 ```
 
-Rename one hyprland-platform.conf to hyprland.conf according to your system.
+Laptop:
+```
+mv hyprland-laptop.conf hyprland.conf && rm hyprland-desktop.conf
+```
+
+Desktop:
+```
+mv hyprland-desktop.conf hyprland.conf && hyprland-laptop.conf
+```
