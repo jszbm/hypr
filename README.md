@@ -12,17 +12,21 @@ sudo pacman -S fcitx5 fcitx5-mozc fcitx5-gtk fcitx5-qt fcitx5-configtool
 
 ### Installation:
 ```
-cd ./.config/
+cd
+mkdir config
+cd ./config/
 git clone git@github.com:jszbm/hypr.git
-cd ./hypr/
+cd ..
+cp -r ./config/hypr ./.config/hypr/
+cd ./.config/hypr
 ```
 
 Laptop:
 ```
-mv hyprland-laptop.conf hyprland.conf && rm hyprland-desktop.conf
+cp hyprland-laptop.conf hyprland.conf
 ```
 
 Desktop:
 ```
-mv hyprland-desktop.conf hyprland.conf && hyprland-laptop.conf
+cp hyprland-desktop.conf hyprland.conf
 ```
