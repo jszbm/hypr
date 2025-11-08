@@ -2,7 +2,7 @@
 
 ### Dependencies:
 ```
-sudo pacman -S kitty dolphin rofi cantarell-fonts hyprlock hyprpicker hyprpolkitagent
+sudo pacman -S kitty dolphin rofi cantarell-fonts hyprlock hyprpicker hypridle xdg-desktop-portal-hyprland hyprpolkitagent
 ```
 
 # Input method:
